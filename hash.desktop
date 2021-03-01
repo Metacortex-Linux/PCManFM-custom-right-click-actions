@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=File Hash
+Name[ru]=Контрольная сумма
+Type=Action
+Profiles=on_file
+Icon=gtkhash
+
+[X-Action-Profile on_file]
+MimeTypes=all/allfiles;!inode/directory;
+TryExec=gtkhash
+Exec=gtkhash %f

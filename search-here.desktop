@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Action
+Icon=system-search
+Name=Find here
+Name[ru]=Поиск в этом каталоге
+Profiles=profile-0;
+
+[X-Action-Profile profile-0]
+MimeTypes=inode/directory;
+TryExec=catfish
+Exec=catfish %f

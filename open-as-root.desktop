@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Action
+Icon=dialog-password
+Name=Open as root
+Name[ru]=Открыть как Администратор
+Profiles=profile-0;profile-1;
+
+[X-Action-Profile profile-0]
+MimeTypes=inode/directory;
+TryExec=pcmanfm
+Exec=gksudo pcmanfm %f
+
+[X-Action-Profile profile-1]
+MimeTypes=text/*;
+TryExec=geany
+Exec=gksudo geany %f

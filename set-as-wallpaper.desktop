@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Action
+Icon=gnome-fs-desktop
+ToolbarLabel=Set Wallpaper
+Name=Set Wallpaper
+Name[ru]=Установить на Рабочий стол
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=image/*;
+Exec=pcmanfm -w %f
